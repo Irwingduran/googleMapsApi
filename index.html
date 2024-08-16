@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Place Searches</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.ts"></script>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="search-container">
+        <input id="location-input" type="text" placeholder="Enter location">
+        <input id="query-input" type="text" placeholder="Enter search query">
+        <button id="search-button">Search</button>
+    </div>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap&libraries=places&v=weekly"
+        defer
+    ></script>
+</body>
+</html>

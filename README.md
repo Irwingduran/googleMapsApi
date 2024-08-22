@@ -11,7 +11,3 @@ npm start  # development
 npm run build  # production
 ```
 
-## Feedback
-
-For feedback related to this sample, please open a new issue on
-[GitHub](https://github.com/googlemaps/js-samples/issues).
